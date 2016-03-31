@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    
+    <title>A clean development environment in KDE</title>
+    
+    <link rel="icon" href="assets/favicon.png">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto'       rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen'       rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="assets/style.css">
+    
+  </head>
+  
+  <body>
+    
+    <section class="title">
+      <img class="kde-logo" src="assets/kde-logo.svg">
+      <h1>
+        <div>A clean development environment</div>
+        <div class="title-second-line">in KDE</div>
+        <a href="http://joshua-shone.com" class="author">
+          by Joshua Shone
+          <span class="link-icon"></span>
+        </a>
+      </h1>
+    </section>
+    
+    <section class="dark remove-decorations overhang">
+      <h2>Remove window decorations</h2>
+      
+      <div class="presentation">
+        
+        <div class="annotation">
+          <p>
+            <span class="quotation-mark"></span>
+            The close, minimize and maximize buttons are tiny and difficult to click. Just get rid of them! Besides, it looks sexier without them.
+          </p>
+        </div>
+      
+        <span class="window">
+          <div class="title-bar">
+            <img class="decoration" src="assets/pin-icon.svg">
+            <span class="title">Oxygen window</span>
+            <img class="decoration" src="assets/minimize-icon.svg">
+            <img class="decoration" src="assets/maximize-icon.svg">
+            <img class="decoration" src="assets/close-icon.svg">
+          </div>
+        </span>
+        
+        <span class="presentation-arrow"></span>
+        
+        <span class="window">
+          <div class="title-bar">
+            <span class="title">Oxygen window</span>
+          </div>
+        </span>
+        
+      </div>
+      
+      <div class="desktop instructions">
+        <div class="annotation">
+          <p>
+            <span class="quotation-mark"></span>
+            Go to System Settings > Application Style > Window Decorations and drag all the buttons from the titlebar to the pallete below.
+          </p>
+        </div>
+      
+        <span class="k-menu">
+          <img class="k-menu-icon" src="assets/k-menu-icon.svg">
+        </span>
+        
+        <span class="window">
+          <div class="title-bar">
+            <img class="decoration" src="assets/pin-icon.svg">
+            <span class="title">System Settings</span>
+            <img class="decoration" src="assets/minimize-icon.svg">
+            <img class="decoration" src="assets/maximize-icon.svg">
+            <img class="decoration" src="assets/close-icon.svg">
+          </div>
+          <div class="window-content">
+            <img class="system-settings-screenshot" src="assets/system-settings.jpg">
+          </div>
+        </span>
+        
+        <span class="window">
+          <div class="title-bar">
+            <img class="decoration" src="assets/pin-icon.svg">
+            <span class="title">Window Decorations</span>
+            <img class="decoration" src="assets/minimize-icon.svg">
+            <img class="decoration" src="assets/maximize-icon.svg">
+            <img class="decoration" src="assets/close-icon.svg">
+          </div>
+          <div class="window-content">
+            <img class="window-decorations-screenshot" src="assets/window-decorations-settings.png">
+          </div>
+        </span>
+      </div>
+    </section>
+    
+    <section class="light window-interactions">
+      <h2 class="dark">Setup window interactions</h2>
+      
+      <div class="annotation">
+        <p>
+          With most desktop window managers, resizing windows requires hitting a tiny margin around the window border to start a drag. Closing or minimizing means you have to bullseye a tiny 10x10 pixel button.
+        </p>
+        <p>
+          Why not use the whole window as a cursor target?
+        </p>
+        <p>
+          Out of the box, KDE allows for resizing windows using an alt-rightclick drag from anywhere over the window surface. After changing a setting, you can also close windows by middle-clicking anywhere on a window's titlebar.
+        </p>
+        <p>
+          Now, rather than window resizing being an occasional concerted effort, it can be done continuously to keep windows logically arranged and grouped as you work.
+        </p>
+      </div>
+      
+      <img class="diagram" src="assets/window-interactions-diagram.svg">
+    </section>
+    
+    <section class="dark">
+      <h2>Clean up Dolphin</h2>
+      
+      <div class="presentation">
+      
+        <div class="annotation">
+          <p>
+            There's a huge amount of clutter that can be cleared up in KDE's file-manager, Dolphin. Once you know the shortcut keys, the menus, toolbars and panels are largely superfluous. 
+          </p>
+          <p>
+            The result is a compact frame - of which many can be layed out on a desktop in a logical fashion, rather than having a single window take most of the screen.
+          </p>
+        </div>
+      
+        <img class="dolphin-stock-screenshot" src="assets/dolphin-stock.png">
+        <span class="presentation-arrow"></span>
+        <img class="dolphin-cleaned-screenshot" src="assets/dolphin-cleaned.png">
+        
+      </div>
+      
+      <div class="desktop instructions">
+      
+        <div class="annotation">
+          <p>
+            Go to View > Panels and uncheck everything. Also uncheck 'Show Toolbar' in the settings menu.
+          </p>
+          <p>
+            Hit Ctrl + M to hide the menu-bar too.
+          </p>
+        </div>
+      
+        <img class="screenshot" src="assets/dolphin-panels-menu.png">
+        <img class="screenshot" src="assets/dolphin-settings-menu.png">
+      </div>
+    </section>
+    
+    <section class="dark application-shortcuts">
+      <h2>Setup application shortcuts</h2>
+      
+      <div class="desktop instructions">
+        
+        <div class="annotation">
+          <p>
+            Go to System Settings > Shortcuts > Custom Shortcuts.
+          </p>
+          <p>
+            Add a new entry by clicking Edit > New > Global Shortcut > Command/URL. Set the shortcut keys in Trigger and type in the application name in Action.
+          </p>
+        </div>
+        
+        <img class="screenshot" src="assets/custom-shortcuts-settings.png">
+      </div>
+      
+      <div class="shortcuts">
+      
+        <div class="annotation">
+          <p>
+            I reckon the Unix philosopy ought to extend to graphical desktop land, namely 'Do one thing and do it well'.
+          </p>
+          <p>
+            Rather than use an IDE, why not use a core set of essential utilities. With a file-manager, terminal, text-editor and web-browser, pretty much anything can get done.
+          </p>
+          <p>
+            The desktop can be an IDE; just open apps like you would tabs.
+          </p>
+        </div>
+        
+        <span class="shortcut">
+          <img class="shortcut-icon" src="assets/kate-icon.svg">
+          <div class="keys">
+            <span class="key">meta</span>
+            <span class="key-combiner">+</span>
+            <span class="key">X</span>
+          </div>
+        </span>
+        <span class="shortcut">
+          <img class="shortcut-icon" src="assets/konsole-icon.svg">
+          <div class="keys">
+            <span class="key">meta</span>
+            <span class="key-combiner">+</span>
+            <span class="key">C</span>
+          </div>
+        </span>
+        <span class="shortcut">
+          <img class="shortcut-icon" src="assets/chrome-icon.svg">
+          <div class="keys">
+            <span class="key">meta</span>
+            <span class="key-combiner">+</span>
+            <span class="key">W</span>
+          </div>
+        </span>
+      </div>
+    </section>
+    
+    <section class="light app-tabs">
+      <span class="screenshot-stack">
+        <img class="screenshot overlayed-duplicate" src="assets/kate-empty.png">
+        <img class="screenshot overlayed-duplicate" src="assets/kate-empty.png">
+        <img class="screenshot overlayed-duplicate" src="assets/kate-empty.png">
+      </span>
+      <span class="screenshot-stack">
+        <img class="screenshot overlayed-duplicate" src="assets/konsole-empty.png">
+        <img class="screenshot overlayed-duplicate" src="assets/konsole-empty.png">
+        <img class="screenshot overlayed-duplicate" src="assets/konsole-empty.png">
+      </span>
+      <span class="screenshot-stack">
+        <img class="screenshot overlayed-duplicate chrome-empty-screenshot" src="assets/chrome-empty.png">
+        <img class="screenshot overlayed-duplicate chrome-empty-screenshot" src="assets/chrome-empty.png">
+        <img class="screenshot overlayed-duplicate chrome-empty-screenshot" src="assets/chrome-empty.png">
+      </span>
+    </section>
+    
+    <section class="dark">
+      <h2>Virtual desktops</h2>
+      
+      <div class="annotation">
+        <p>
+          There's a few tweaks you can do that makes virtual desktops feel extra fluid and natural, as if they really were extensions of your monitor(s).
+        </p>
+        <p>
+          Turning on the 'Slide' desktop switch animation enables some spatial continuity and avoid some "pause-and-reorient-yourself" moments.
+        </p>
+        <p>
+          You can also enable desktop switching when a window is dragged to the edge of the screen. It means you can grab a window a push it down until it rolls onto the next desktop, like you really did have a screen the size of a highway billboard.
+        </p>
+      </div>
+      
+      <table class="virtual-desktops-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th><img class="monitor-icon" src="assets/monitor-icon.svg"></th>
+            <th><img class="monitor-icon" src="assets/monitor-icon.svg"></th>
+            <th><img class="monitor-icon" src="assets/monitor-icon.svg"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="virtual-desktop-shortcut">
+                <span class="key">ctrl</span>
+                <span class="key-combiner">+</span>
+                <span class="key">F1</span>
+              </div>
+              <div class="virtual-desktop-label">
+                Development
+              </div>
+            </td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="virtual-desktop-shortcut">
+                <span class="key">ctrl</span>
+                <span class="key-combiner">+</span>
+                <span class="key">F2</span>
+              </div>
+              <div class="virtual-desktop-label">
+                Deployment
+              </div>
+            </td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="virtual-desktop-shortcut">
+                <span class="key">ctrl</span>
+                <span class="key-combiner">+</span>
+                <span class="key">F3</span>
+              </div>
+              <div class="virtual-desktop-label">
+                Messaging
+              </div>
+            </td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+            <td><img class="desktop-cell" src="assets/kde-wallpaper.jpg"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+<!--    <section class="fullscreen">
+      <h2>Workflow</h2>
+    </section>-->
+    
+  </body>
+  
+</html>

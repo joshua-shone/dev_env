@@ -1,0 +1,399 @@
+html, body {
+  margin:  0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #EAF2F5;
+  color: #6f6f6f;
+  padding-bottom: 20rem;
+}
+
+section.title .kde-logo {
+  display: block;
+  margin: 0 auto;
+  width:  5rem;
+  height: 5rem;
+  margin-top:    6rem;
+  margin-bottom: 6rem;
+}
+
+section.title h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-bottom: 7rem;
+}
+section.title h1 .title-second-line {
+  font-size: 1.5rem;
+}
+
+section.title a.author {
+  position: absolute;
+  left: 50%;
+  margin-left: 7rem;
+  margin-top: -1.11rem;
+  font-family: 'Merriweather', serif;
+  font-size: 0.7rem;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.7;
+}
+section.title a.author:hover {
+  opacity: 1;
+}
+
+.link-icon {
+  display: inline-block;
+  background-image: url(link-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:  0.8em;
+  height: 0.8em;
+  vertical-align: middle;
+}
+
+section {
+  overflow: visible;
+  padding: 1px; /* to prevent margin collapsing */
+}
+
+section.overhang {
+  padding-bottom:    12rem;
+  margin-bottom:  -10.5rem;
+}
+
+section.dark {
+  background-color: #242d32;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+section h2 {
+  margin-top: 0.5rem;
+  width: 800px;
+  margin: 0 auto;
+  margin-top:    2rem;
+  margin-bottom: 1.4rem;
+  max-width: 100%;
+}
+.dark {
+  color: #fff;
+}
+
+.annotation {
+  font-family: 'Merriweather', serif;
+  font-size: 0.7rem;
+  font-style: italic;
+  position: absolute;
+  right: 1rem;
+  max-width: 20rem;
+  padding: 0.5rem;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+section.dark .annotation {
+  color: #808080;
+}
+
+.annotation p:first-of-type:before {
+  content: open-quote;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 0;
+}
+.annotation p:last-of-type:after {
+  content: close-quote;
+  font-size: 0;
+}
+
+.presentation {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation-arrow {
+  display: inline-block;
+  background-image: url(presentation-arrow.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:  3.5em;
+  height: 9.5em;
+  margin: 1.7rem;
+}
+
+.diagram {
+  display: block;
+  width: 800px;
+  height: 30rem;
+  margin: 0 auto;
+  font-size: 0.5rem;
+}
+
+.instructions {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 800px;
+}
+
+.desktop {
+  background-image: url(kde-wallpaper-dark.jpg);
+  background-size: cover;
+  padding-top:    0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.6rem;
+}
+
+.k-menu {
+  display: inline-block;
+  margin: 0.6em;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(K_menu_system_settings.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10em;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  min-width:  20em;
+  min-height: 23.6em;
+  border-top-left-radius:  0.25em;
+  border-top-right-radius: 0.25em;
+  font-family: 'Oxygen', sans-serif;
+  position: relative;
+}
+.k-menu-icon {
+  display: inline-block;
+  width:  3em;
+  height: 3em;
+  position: absolute;
+  left:   0.5em;
+  bottom: 0.5em;
+}
+
+.window {
+  display: inline-block;
+  border-radius: 0.3em;
+  background-color: #eff0f1;
+  min-width:  3em;
+  min-height: 3em;
+  margin: 0.6em;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: 'Oxygen', sans-serif;
+}
+
+.window .title-bar {
+  background-color: #475057;
+  color: #fff;
+  height: 1.8em;
+  display: flex;
+  align-items: center;
+  padding-left:  0.5em;
+  padding-right: 0.5em;
+  border-top-left-radius:  inherit;
+  border-top-right-radius: inherit;
+}
+
+.window .title-bar .title {
+  margin-left:  0.5em;
+  margin-right: 0.5em;
+  text-align: center;
+  white-space: nowrap;
+  flex-grow: 1;
+}
+
+.window .title-bar .decoration {
+  display: inline-block;
+  width:  1em;
+  height: 1em;
+  margin-left:  0.3em;
+  margin-right: 0.3em;
+}
+
+
+section.remove-decorations .presentation .window {
+  display: inline-block;
+  width:  18rem;
+  height: 12rem;
+}
+
+.system-settings-screenshot {
+  display: block;
+  width:  30em;
+  height: 22em;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.window-decorations-screenshot {
+  display: block;
+  width:  44em;
+  height: 22em;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.window-interactions .annotation {
+  margin-top: 6rem;
+}
+
+.dolphin-stock-screenshot {
+  display: inline-block;
+  width:  24em;
+  height: 14em;
+}
+
+.dolphin-cleaned-screenshot {
+  display: inline-block;
+  width:  14em;
+  height: 10em;
+}
+
+.screenshot {
+  display: inline-block;
+  margin: 1em;
+}
+
+.screenshot[src="assets/dolphin-panels-menu.png"] {
+  width:  229.0px; /* 458px / 2 */
+  height: 247.5px; /* 495px / 2 */
+}
+
+.screenshot[src="assets/dolphin-settings-menu.png"] {
+  width:  131.5px; /* 263px / 2 */
+  height:  94.0px; /* 188px / 2 */
+}
+
+.screenshot[src="assets/custom-shortcuts-settings.png"] {
+  width:  374.5px; /* 749px / 2 */
+  height: 254.0px; /* 508px / 2 */
+}
+
+.application-shortcuts {
+  margin-bottom: 6em;
+}
+
+.shortcuts {
+  display: flex;
+  justify-content: center;
+  transform: translateY(5.2em);
+  margin-top: -4em;
+}
+
+.shortcuts .annotation {
+  margin-top: 6.5em;
+}
+
+.shortcut {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+.shortcut-icon {
+  display: inline-block;
+  width:  6em;
+  height: 6em;
+}
+
+.key {
+  color: #a2a2a2;
+  border: 1px solid #a2a2a2;
+  border-radius: 0.3em;
+  padding: 0.3em;
+  padding-left:  0.5em;
+  padding-right: 0.5em;
+  margin-left:  0.2em;
+  margin-right: 0.2em;
+}
+
+.key-combiner {
+  color: #a2a2a2;
+}
+
+.app-tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.screenshot-stack {
+  width:  19em;
+  height: 18em;
+  position: relative;
+}
+
+.overlayed-duplicate {
+  position: absolute;
+  left: 1em;
+  top:  1em;
+}
+
+.overlayed-duplicate:nth-child(1) {
+  left: 1em;
+  top:  1em;
+  z-index: 2;
+}
+.overlayed-duplicate:nth-child(2) {
+  left: 2em;
+  top:  2em;
+  z-index: 3;
+}
+.overlayed-duplicate:nth-child(3) {
+  left: 3em;
+  top:  3em;
+  z-index: 4;
+}
+
+.chrome-empty-screenshot {
+  width: 13em;
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.4);
+  transform: translate(0.5em, 0.5em);
+}
+
+.virtual-desktops-table {
+  margin: 0 auto;
+}
+.virtual-desktop-label {
+  font-family: 'Merriweather', serif;
+  font-size: 0.7em;
+  color: #848484;
+  font-style: italic;
+  text-align: right;
+}
+.virtual-desktop-shortcut {
+  font-size: 0.7em;
+  margin-bottom: 1.5em;
+  text-align: right;
+}
+.virtual-desktop-shortcut .key {
+  color: #fff;
+  border-color: #fff;
+}
+.virtual-desktop-shortcut .key-combiner {
+  color: #fff;
+}
+
+.virtual-desktops-table th {
+  text-align: center;
+}
+
+.virtual-desktops-table .desktop-cell {
+  width:  256px; /* 2560px / 8 */
+  height: 160px; /* 1600px / 8 */
+}
+
+.monitor-icon {
+  display: inline-block;
+  width:  2em;
+  height: 2em;
+}

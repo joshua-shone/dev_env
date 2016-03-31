@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="140"
+   height="140"
+   viewBox="0 0 140 140.00001"
+   id="svg10523"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="chrome-icon.svg">
+  <defs
+     id="defs10525">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="App icon shadow"
+       id="filter5113">
+      <feFlood
+         flood-opacity="0.34902"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5115" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5117" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="20"
+         result="blur"
+         id="feGaussianBlur5119" />
+      <feOffset
+         dx="5"
+         dy="8"
+         result="offset"
+         id="feOffset5121" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5123" />
+    </filter>
+    <clipPath
+       id="SVGID_2_">
+      <use
+         id="use4996"
+         overflow="visible"
+         xlink:href="#SVGID_1_"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="SVGID_4_">
+      <use
+         id="use5004"
+         overflow="visible"
+         xlink:href="#SVGID_3_"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath10494">
+      <use
+         id="use10496"
+         overflow="visible"
+         xlink:href="#SVGID_3_"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+    <clipPath
+       id="clipPath10498">
+      <use
+         id="use10500"
+         overflow="visible"
+         xlink:href="#SVGID_3_"
+         style="overflow:visible"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="113.29907"
+     inkscape:cy="60.344378"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="997"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata10528">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-158.09234,-815.12951)">
+    <g
+       id="g4988"
+       transform="matrix(0.22080409,0,0,0.22080409,171.49383,828.43449)"
+       style="filter:url(#filter5113)">
+      <g
+         id="g4990">
+        <defs
+           id="defs4992">
+          <circle
+             r="230"
+             cy="256.00101"
+             cx="256"
+             id="SVGID_1_" />
+        </defs>
+        <clipPath
+           id="clipPath10506">
+          <use
+             id="use10508"
+             overflow="visible"
+             xlink:href="#SVGID_1_"
+             style="overflow:visible"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </clipPath>
+        <g
+           id="g4998"
+           clip-path="url(#SVGID_2_)">
+          <defs
+             id="defs5000">
+            <circle
+               r="256.138"
+               cy="256.00101"
+               cx="256"
+               id="SVGID_3_" />
+          </defs>
+          <clipPath
+             id="clipPath10513">
+            <use
+               id="use10515"
+               overflow="visible"
+               xlink:href="#SVGID_3_"
+               style="overflow:visible"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
+          </clipPath>
+          <path
+             id="path5006"
+             d="m 247.355,119.844 -24.942,400.998 126.633,40.291 c 0,0 182.271,-139.101 192.823,-242.711 10.552,-103.607 10.552,-208.171 10.552,-208.171 l -305.066,9.593 z"
+             clip-path="url(#SVGID_4_)"
+             inkscape:connector-curvature="0"
+             style="fill:#f9db46" />
+          <path
+             id="path5008"
+             d="M 349.276,318.482 212.439,556.336 c 0,0 -211.628,-95.934 -233.692,-176.515 C -43.317,299.238 -33.726,147.664 -6.864,89.145 19.998,30.626 24.795,64.202 24.795,64.202 l 324.481,254.28 z"
+             clip-path="url(#SVGID_4_)"
+             inkscape:connector-curvature="0"
+             style="fill:#71d375" />
+          <path
+             id="path5010"
+             d="m 39.856,103.534 117.02,208.562 99.854,-170.167 260.196,0 c 0,0 -141.979,-229.3 -315.618,-183.252 C 27.672,4.724 39.856,103.534 39.856,103.534 Z"
+             clip-path="url(#SVGID_4_)"
+             inkscape:connector-curvature="0"
+             style="fill:#e04d2b" />
+        </g>
+      </g>
+      <g
+         id="g5012">
+        <path
+           id="path5014"
+           d="m 256,357.56 c -55.998,0 -101.557,-45.559 -101.557,-101.558 0,-56 45.559,-101.559 101.557,-101.559 56,0 101.559,45.559 101.559,101.559 C 357.559,312.001 312,357.56 256,357.56 Z"
+           inkscape:connector-curvature="0"
+           style="fill:#25abd9" />
+        <path
+           id="path5016"
+           d="m 256,166.942 c 49.107,0 89.059,39.952 89.059,89.059 0,49.107 -39.951,89.058 -89.059,89.058 -49.106,0 -89.057,-39.951 -89.057,-89.058 0,-49.107 39.951,-89.059 89.057,-89.059 m 0,-25 c -62.991,0 -114.057,51.065 -114.057,114.059 0,62.991 51.065,114.058 114.057,114.058 62.992,0 114.059,-51.067 114.059,-114.058 0,-62.994 -51.068,-114.059 -114.059,-114.059 l 0,0 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+</svg>
